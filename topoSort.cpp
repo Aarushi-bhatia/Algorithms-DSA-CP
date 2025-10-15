@@ -1,3 +1,6 @@
+// Purpose: Computes a topological ordering of a directed acyclic graph (DAG) using Kahn’s algorithm.
+// Time & Space Complexity: Runs in O(V + E) time and O(V + E) space, where V is the number of vertices and E is the number of edges.
+
 class Solution {
   public:
     vector<int> topoSort(int V, vector<vector<int>>& edges) {
