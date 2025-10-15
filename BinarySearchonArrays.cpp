@@ -1,3 +1,6 @@
+// Purpose: Finds the k-th smallest element in the union of two sorted arrays using binary search.
+// Time & Space Complexity: Runs in O(log min(n, m)) time and O(1) extra space, where n and m are the sizes of the two arrays.
+
 class Solution {
   public:
     int kthElement(vector<int>& a, vector<int>& b, int k) {
