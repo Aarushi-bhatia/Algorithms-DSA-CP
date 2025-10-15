@@ -1,3 +1,6 @@
+// Purpose: Schedules jobs to maximize total profit while meeting deadlines using a greedy approach with a priority queue.
+// Time & Space Complexity: Runs in O(n log n) time and O(n) space, where n is the number of jobs.
+
 class Solution {
   public:
     vector<int> jobSequencing(vector<int> &deadline, vector<int> &profit) {
