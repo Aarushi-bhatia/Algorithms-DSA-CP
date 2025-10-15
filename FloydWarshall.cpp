@@ -1,3 +1,6 @@
+// Purpose: Computes the shortest distances between all pairs of vertices in a weighted graph using the Floyd-Warshall algorithm.
+// Time & Space Complexity: Runs in O(n³) time and O(n²) space, where n is the number of vertices.
+
 class Solution {
   public:
     void floydWarshall(vector<vector<int>> &dist) {
