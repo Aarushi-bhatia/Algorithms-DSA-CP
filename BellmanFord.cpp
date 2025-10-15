@@ -1,3 +1,6 @@
+// Purpose : Shortest paths from a single source to all other vertices in a weighted graph (can handle negative weights)
+// Has a time complexity of O(V·E) and space complexity of O(V)
+
 class Solution {
   public:
     vector<int> bellmanFord(int V, vector<vector<int>>& edges, int src) {
