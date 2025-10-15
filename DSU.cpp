@@ -1,3 +1,6 @@
+// Purpose: Implements a Disjoint Set (Union-Find) data structure with union by rank and union by size for efficiently managing connected components.
+// Time & Space Complexity: Each operation runs in nearly O(α(n)) time (α is the inverse Ackermann function) with O(n) space, where n is the number of elements.
+
 class Disjoint {
 private:
     vector<int> parent, rank, siz;
